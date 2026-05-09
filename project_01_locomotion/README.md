@@ -89,7 +89,9 @@ base_height = RewTerm(
 
 ### 回放演示（实验C2 最佳配置）
 
-https://github.com/user-attachments/assets/你的视频链接
+<p align="center">
+  <img src="results/exp_c2_demo.gif" width="60%">
+</p>
 
 > 💡 视频文件位于 `videos/exp_c2_best.mp4`
 
