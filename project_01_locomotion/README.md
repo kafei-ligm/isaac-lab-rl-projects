@@ -112,18 +112,20 @@ base_height = RewTerm(
 3. **训练曲线比最终数值更有价值**：从曲线中可以看到学习过程的稳定性差异
 
 ## 文件说明
-project_01_locomotion/
-├── README.md                        ← 本文件
-├── configs/
-│   ├── baseline.py                  ← 默认配置
-│   ├── exp_b_ang_weight.py          ← 实验B配置
-│   ├── exp_c1_height_strong.py      ← 实验C1配置
-│   └── exp_c2_height_mild.py        ← 实验C2配置（最佳）
-├── results/
-│   └── training_curves.png          ← 训练曲线对比图
-└── videos/
-└── (回放视频)
 
+```
+project_01_locomotion/
+├── README.md                        # 本文件
+├── configs/
+│   ├── baseline.py                  # 默认配置
+│   ├── exp_b_ang_weight.py          # 实验B配置
+│   ├── exp_c1_height_strong.py      # 实验C1配置
+│   └── exp_c2_height_mild.py        # 实验C2配置（最佳）
+├── results/
+│   └── training_curves.png          # 训练曲线对比图
+└── videos/
+    └── exp_c2_best.mp4              # 最佳配置回放视频
+```
 ## 后续计划
 
 - [ ] 课程学习：先平地训练，再迁移到复杂地形
