@@ -128,7 +128,7 @@ project_01_locomotion/
 ```
 ### 回放视频（实验C2 最佳配置）
 
-https://github.com/kafei-ligm/isaac-lab-rl-projects/raw/main/project_01_locomotion/videos/exp_c2_best.mp4
+<video src="https://github.com/kafei-ligm/isaac-lab-rl-projects/raw/main/project_01_locomotion/videos/exp_c2_best.mp4" controls width="600"></video>
 ## 后续计划
 
 - [ ] 课程学习：先平地训练，再迁移到复杂地形
