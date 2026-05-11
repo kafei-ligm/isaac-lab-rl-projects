@@ -77,8 +77,9 @@ base_height = RewTerm(
 
 ### 回放演示（实验C2 最佳配置）
 
-> 💡 视频文件位于 `videos/exp_c2_best.mp4`
-
+<p align="center">
+  <img src="results/exp_c2_demo.gif" width="60%">
+</p>
 ### 💡 关键发现
 
 #### ⭐ 发现一：转向权重不足是主要瓶颈
