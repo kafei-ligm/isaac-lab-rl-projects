@@ -1,0 +1,11 @@
+# Entropy 对比实验 (Open Drawer)
+experiments:
+  - name: high_entropy
+    initial_entropy_value: 0.5
+    result: -51.61
+  - name: medium_entropy (baseline)
+    initial_entropy_value: 0.05
+    result: 80.16
+  - name: low_entropy
+    initial_entropy_value: 0.01
+    result: 54.44

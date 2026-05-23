@@ -1,0 +1,18 @@
+# SAC Baseline 配置 (Open Drawer 任务)
+seed: 42
+algorithm: SAC
+framework: skrl 2.0.0
+task: Isaac-Open-Drawer-Franka-v0
+policy_net: [256, 128, 64]
+critic_net: [256, 128, 64]
+activation: ReLU
+batch_size: 256
+discount_factor: 0.99
+polyak: 0.005
+learning_rate: 3e-4
+initial_entropy_value: 0.05
+learn_entropy: true
+num_envs: 32
+max_timesteps: 360000
+replay_buffer_size: 100000
+result: 80.16

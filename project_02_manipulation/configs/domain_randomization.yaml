@@ -1,0 +1,14 @@
+# 域随机化实验 (Open Drawer)
+experiments:
+  - name: no_randomization (baseline)
+    friction_range: [0.8, 1.25]
+    joint_position_range: [-0.1, 0.1]
+    result: 80.16
+  - name: wide_friction
+    friction_range: [0.4, 2.0]
+    joint_position_range: [-0.1, 0.1]
+    result: 79.97
+  - name: wide_joints
+    friction_range: [0.8, 1.25]
+    joint_position_range: [-0.3, 0.3]
+    result: 90.99
